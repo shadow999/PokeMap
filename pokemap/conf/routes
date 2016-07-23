@@ -3,3 +3,4 @@ GET     /assets/*file               @controllers.Assets.versioned(path="/public"
 GET     /                           @controllers.HomeController.index
 
 GET     /getTestLocations           @controllers.TestController.getTestLocations
+GET     /test                       @controllers.TestController.test
